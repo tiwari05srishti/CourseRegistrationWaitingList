@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#00BB86FC</color>
+    <color name="purple_500">#FFC107</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Color values defined for specific elements of the app-->
+    <color name="actionbartext">#352801</color> <!--Text color for the action bar-->
+    <color name="mainactivitybg">#007C2E</color> <!--Background color for the splash screen-->
+    <color name="headingColor">#EDEDED</color> <!--Color for headings-->
+    <color name="tap_to_start_btn_text_color">#3C3C3C</color> <!--Text color for "tap to start" button-->
+    <color name="tap_to_start_bg_text_color">#FFC107</color> <!--Background color for "tap to start" button-->
+    <color name="company_name_color">#EDEDED</color> <!--Color for company name-->
+
+    <color name="addStudentBtn">#8BC34A</color> <!--Background color for "add student" button-->
+    <color name="priorityBtn">#00BCD4</color> <!--Background color for "assign priority" button-->
+    <color name="editStudentBtn">#FFC107</color> <!--Background color for "edit student" button-->
+    <color name="deleteStudentBtn">#607D8B</color> <!--Background color for "delete student" button-->
+    <color name="btnTextColor">#FF4081</color> <!--Text color for buttons-->
+    <color name="viewWaitingListButton">#F4C2C2</color> <!--Background color for "view waiting list" button-->
+
+    <color name="add_student_bg_color">#F4C2C2</color> <!--Background color for "add student" activity-->
+    <color name="add_student_btn_bg_color">#FFC107</color> <!--Background color for "add student" button-->
+    <color name="add_student_btn_text_color">#090909</color> <!--Text color for "add student" button-->
+    <color name="add_student_input_field_bg">#FFFFFF</color> <!--Background color for input fields-->
+    <color name="back_btn_bg_color">#FFC107</color> <!--Background color for "back" button-->
+
+    <color name="error_validation_text_color">#FFFFFF</color> <!--Text color for error validation messages-->
+
+
+</resources>

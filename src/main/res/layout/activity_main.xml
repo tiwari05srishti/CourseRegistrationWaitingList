@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Scroll Layout for scrolling-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <!--Linear Layout for scrolling-->
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Relative Layout for scrolling-->
+        <RelativeLayout
+            android:id="@+id/tap2startbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textDirection="firstStrong"
+            tools:context=".MainActivity">
+
+            <!-- Splash screen banner image-->
+
+            <!-- Manage Waiting list Button-->
+
+            <ImageView
+                android:id="@+id/startImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/list" />
+
+            <Button
+                android:id="@+id/clickStartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="610dp"
+                android:backgroundTint="@color/tap_to_start_bg_text_color"
+                android:onClick="tapToStart"
+                android:padding="10dp"
+                android:text="@string/button_text"
+                android:textColor="@color/tap_to_start_btn_text_color"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

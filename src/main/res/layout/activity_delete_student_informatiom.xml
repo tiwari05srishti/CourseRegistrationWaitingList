@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Scroll Layout for scrolling-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <!--Linear Layout for scrolling-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--Delete a Student heading text-->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/delete_student_info_heading_text"
+            android:textColor="@color/white"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <!--Empty field validation text-->
+        <TextView
+            android:id="@+id/addStudentValidationMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/error_validation_text_color" />
+
+        <!--Student CWID input field-->
+        <EditText
+            android:id="@+id/deleteStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addStudentValidationMsg"
+            android:layout_marginBottom="16dp"
+            android:background="@color/add_student_input_field_bg"
+            android:hint="@string/delete_student_info_id_field"
+            android:padding="12dp"
+            android:textSize="17sp" />
+
+
+        <!--Delete a Student Button-->
+        <Button
+            android:id="@+id/deleteStudentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deleteStudentId"
+            android:text="@string/delete_student_info_btn_text"
+            android:textColor="@color/add_student_btn_text_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintButtonSize" />
+
+        <!--Back Button-->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deleteStudentBtn"
+            android:text="@string/back_btn_text"
+            android:textColor="@color/add_student_btn_text_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+</ScrollView>

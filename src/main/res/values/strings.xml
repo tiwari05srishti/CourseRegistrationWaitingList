@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Course Registration Waiting List</string>
+    <!-- Company name -->
+    <string name="company_name">Course Registration Waiting List </string>
+    <!-- Button text for the main activity -->
+    <string name="button_text">Waiting List Management</string>
+
+    <!-- Add student activity -->
+    <string name="add_student_name_field">Enter CWID of Student</string>
+    <string name="add_student_id_field">Enter Student Name</string>
+    <string name="add_student_course_field">Enter Course Name</string>
+    <string name="add_student_priority_field">Enter Student Priority</string>
+    <string name="add_student_btn">Add Student</string>
+    <string name="back_btn_text">Back</string>
+    <string name="heading_text">ADD INFORMATION</string>
+
+    <!-- Assign priority activity -->
+    <string name="assign_priority_name_field">Enter CWID of Student</string>
+    <string name="assign_priority_id_field">Enter Priority</string>
+    <string name="assign_priority_btn_text">Assign Priority</string>
+    <string name="assign_priority_heading_text">ASSIGN PRIORITY</string>
+
+    <!-- Edit student information activity -->
+    <string name="edit_student_info_id_field">Enter CWID of Student</string>
+    <string name="edit_student_info_name_field">Modify Name</string>
+    <string name="edit_student_course_name_field">Modify Course </string>
+    <string name="edit_student_priority_field">Modify Priority</string>
+    <string name="edit_student_info_btn_text">Edit Student Info</string>
+    <string name="edit_student_info_heading_text">EDIT INFORMATION</string>
+
+    <!-- Delete student information activity -->
+    <string name="delete_student_info_id_field">Enter CWID of Student</string>
+    <string name="delete_student_info_btn_text">Delete Student</string>
+    <string name="delete_student_info_heading_text">DELETE INFORMATION</string>
+
+    <!-- Priority list -->
+    <string-array name="priorityList">
+        graduate, Senior, Junior
+        <item>Set Priority</item>
+        <item>Graduate</item>
+        <item>Senior</item>
+        <item>Junior</item>
+        <item>Sophomore</item>
+        <item>Freshman</item>
+    </string-array>
+
+</resources>
+
+
